@@ -1,36 +1,158 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 BR CLICK – Educação Tecnológica Gratuita e Inclusiva
 
-## Getting Started
+O **BR CLICK** é uma plataforma de educação tecnológica **100% gratuita, online e inclusiva**, criada para formar uma nova base de talentos digitais no Brasil, começando do zero e sem barreiras técnicas.
 
-First, run the development server:
+O projeto foi desenvolvido com **Next.js (App Router)**, com foco em performance, acessibilidade, SEO e uma experiência simples para iniciantes em tecnologia.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 🎯 Missão
+
+Criar uma nova base de talentos digitais do zero, oferecendo cursos gratuitos e inclusivos, 100% online, práticos e com suporte contínuo.
+
+---
+
+## 👥 Público-Alvo
+
+- Iniciantes em tecnologia
+- Pessoas com computador e acesso à internet
+- Quem deseja aprender do zero, sem experiência prévia
+- Pessoas que buscam inclusão, acolhimento e apoio humano
+
+---
+
+## 🌱 Diferenciais
+
+- 💯 Cursos **100% gratuitos**
+- 🌍 Plataforma **100% online**
+- ♿ Inclusão e acessibilidade desde o início
+- 👩‍💻 **30% das vagas destinadas a mulheres**
+- 🧏 Vagas para **PCD**, com intérprete em Libras
+- 🖥️ Interface sem barreiras técnicas
+- 🤝 Mentoria e suporte humano
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- [Next.js](https://nextjs.org)
+- TypeScript
+- Tailwind CSS
+- Lucide Icons
+- App Router (`/app`)
+- SEO e Metadata otimizados
+- Componentes acessíveis e responsivos
+
+---
+
+## 📁 Estrutura do Projeto
+
+```text
+brclick/
+├─ app/
+│  ├─ layout.tsx
+│  ├─ page.tsx
+│  ├─ globals.css
+│
+├─ components/
+│  ├─ Header.tsx
+│  ├─ Hero.tsx
+│  ├─ Features.tsx
+│  ├─ Courses.tsx
+│  ├─ Testimonials.tsx
+│  ├─ FAQ.tsx
+│  ├─ Contact.tsx
+│
+├─ lib/
+│  └─ data.ts
+│
+├─ public/
+│  ├─ favicon.ico
+│  ├─ apple-icon.png
+│  ├─ icon.svg
+│
+└─ README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+▶️ Como Rodar o Projeto Localmente
+Pré-requisitos
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Node.js 18 ou superior
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+npm, yarn, pnpm ou bun
 
-## Learn More
+Instalação
+npm install
 
-To learn more about Next.js, take a look at the following resources:
+Executar em ambiente de desenvolvimento
+npm run dev
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# ou
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+yarn dev
 
-## Deploy on Vercel
+# ou
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+pnpm dev
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# ou
+
+bun dev
+
+Abra no navegador:
+
+👉 http://localhost:3000
+
+✏️ Desenvolvimento
+
+Você pode começar editando o arquivo:
+
+app/page.tsx
+
+As alterações são refletidas automaticamente no navegador durante o desenvolvimento.
+
+🎨 Fontes
+
+O projeto utiliza next/font para carregamento otimizado de fontes, garantindo melhor performance e experiência do usuário.
+
+🌐 SEO e Acessibilidade
+
+Metadata configurada com a API de Metadata do Next.js
+
+Open Graph para compartilhamento em redes sociais
+
+Navegação por teclado
+
+Componentes acessíveis (ARIA)
+
+Performance otimizada para web e mobile
+
+🚀 Deploy
+
+A forma mais simples de publicar o projeto é utilizando a Vercel, plataforma oficial do Next.js.
+
+🔗 https://vercel.com/new
+
+Documentação oficial:
+
+🔗 https://nextjs.org/docs/app/building-your-application/deploying
+
+🤝 Contribuições
+
+Contribuições são muito bem-vindas!
+
+Você pode ajudar com:
+
+Sugestões de melhoria
+
+Correções de bugs
+
+Melhorias de acessibilidade
+
+Conteúdo educacional
+
+Novas funcionalidades
+
+📄 Licença
+
+Projeto de caráter educacional e social, com foco em impacto positivo, inclusão digital e democratização do acesso à tecnologia.
